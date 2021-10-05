@@ -1,0 +1,377 @@
+Section 1.0
+
+Statistics Conecpt:
+
+	Statistics Helps Decision Making. 
+	Statistics is the study of colleting, organizing, analyzing, and interpreting information and data
+	Statistics is science of uncertantity. 
+	Statistics not about random guessing but a conclusion after analyzing on information of data
+	
+	
+Statistical Notation
+	N: Total Number
+	n: Sample count
+	Parameter: if survey of all the people
+	Statistics: Survey on few people (Sample)
+
+Statistics Types:
+	1. Descriptive Statistics: 
+		descriptive statistics involve methods of organizing, picturing and summerizing information from samples or parameter.
+		like Bar chart, PIE Chart 
+		Tools: Matplotlib
+		
+	2. Inferential Statistics:
+		inferrntial statistics involves methods of using infromation from a sample to draw conclusion regarding the population (Parameter)
+		conclusion on information on sample of data.
+		I
+
+
+								Statistics Variable
+						
+					Quantitative				Qualitative
+					(Continuous)				(categorical)
+					
+				Interval  Ratio				Nominal 		Ordinal
+	
+Classifying Variable:
+	
+	1. Quantitative (Continuous)
+	2. Qualitative (Categorical)
+		
+		a) interval vs ratio data
+		b) Nominal vs ordinal data
+		
+		
+	1. Qualitative (Continuous): 
+		its a numerical measurement of something. 
+		ex: Qualitative variable (in health care)
+			Time of admit
+			year of diagnosis
+			Blood Pressure
+			Platlet Count
+			
+		Interval: 
+			meaningful difference between data value. 
+			it is space between the value (tike time gap or interval)
+			there is no true zero
+			Ex: 
+				Time of Admit: it will never be zero. means always get some time 8:06, or 9:05 
+				year of diagnosis: same here year never v zero (1999, 2002)
+		
+		Ratio:
+			meaningful difference between data value. 
+			There is true zero
+			Ex: 
+				Blood Pressure: like if we dead the BP will 0. 
+				Platlet Count: same for Platlet count may 0.
+			
+	2.  Qualitative (Categorical): 
+	its a Categorical measurement of something.  we can find mean on categorical variable
+	ex: Categorical variable (in health care)
+		Type of death insurance
+		Country of origin
+		Staze of cancer (Staze 1, Staze 2)
+		Trauma center level
+		
+		Nominal: 
+			Nominal applies to category like labels, names and cannot be ordered smallest to largest or vice versa.
+			Cannot ordered
+			
+		
+		Ordinal:
+			Ordinal data can be arrange in ordered.
+			but the difference between two values cannot be determined.
+			ex: Cancer Staze 
+				Staze 1, Staze 2  this can be ordered but cannot calculate the difference between them.
+
+Section 1.1
+
+Sampling
+
+	Sampling Defination
+	1. Simple Random Sampling
+	2. Stratified Sampling
+	3. Systemetic Sampling
+	4. Cluster Sampling
+	5. Convenience and Multi Staze Sampling
+	
+	Sampling we can do with Inferential Statistics (Sample of data) not on parameter (Whole population) because its impractical and unnecesary.
+	
+	Sampling Frame: 
+		List of indivisual from which a sample is actually Selected.
+		List may be Pysical, Concrete list like (List of student enroll at nursing collage)
+		Also may a Theoretical  list like (List of patient who will present at emergency department today)
+		
+		
+		Sampling Frame is the part of population from which we want to draw a sample. therefor we want everyone from my sapmling frame have a chance to be selected for my sample.
+		
+	Error in Statistics
+	
+		Sampling Error: (Fact of life Error in general word)
+			The Population mean may b different from sampling mean or
+			the Population % may be different from sample %
+			
+		Non Sampling Error: (Error we want to avoid) 
+			The bad list (like if we get incorrect list of sample then it will not give any required analysis)
+			ex: poor sample design, sloppy data collection, bias in data collection.
+			
+	
+	Simulation:
+		Simulation is defined by numerical facisimile (exact copy) or reperzentation of real world phenomenon.
+		its like a pretending the situation when it comes to real world.
+		
+	Types:
+	
+	1. Simple Random Sampling:
+		Simple random Sampling means sample must contain each type of group of data from poulation.
+		ex:
+			if we have population of class staudent and create a sample of 5 staudent.
+			then it must you pick all type of student form population. if we get only first bench student then it may b sampling error. like sloppy data collection.
+			data must b unique. like using IDs or primary key (avoid duplicate data)
+			
+	2. Stratified Sampling:
+		Stratified= taken from group or layers
+		its a collection of sample in layers or group. using this we can create a proportion of groups in final sample.
+		SRS takes place for each Strata (groups or layers)
+		ex: like staudent sample, like 1st year student, 2nd year student
+		
+		Limitation of Stratified Sampling:
+			Oversampling in one group means your summary statistic is unbalanced.
+			its also hard to split list into groups (strata) 
+			
+	3. Systematic Sampling:
+		Systemaric Sampling can be done with or without list.
+		Steps:
+			1. arrange all indivisual of the poulation in a particular order. (like Hospital in state wise)
+			2. then pick a random indivisual from a start (Select random hospital let say 7)
+			3. then take every kth member of the population in the sample. (now pick random patient from hospital )
+			
+			ex: let take start no 3 then next 5 then next no will be 8,11,14,17,20 
+		
+	4. Cluster Sampling:
+		Cluster Sampling typically used in geographic location. in cluster sampling we divide map into geographic areas and then pick random cluster or areas from the map. we take all the people in the cluster.
+		
+		Problem with Clsuter Sampling:
+			sometimes the people located in a cluster are all similar that makes the problem hard to study.
+			if cancer rates are highier then its very hard to identify the situation.
+	
+	5. Convenience  Sampling:
+		Convenience sampling is ued in low risk circumstances. like what ice-cream is the best in next to the hospital.
+		but the resut are not often reliable because it depends upon person to person.
+		
+		Problem:
+			data may b bias in every group.
+			
+	6. Multi Staze Sampling:
+		Multi staze Sampling is a sampling strategies layered or group in stages.
+		its a sampling in stages like first collect sample from country, then states and households and then indivisiual.
+		ex:
+			Stage 1: Culster sample of two states
+			Stage 2: SRS of two countries
+			Stage 3: Stratified sample of school
+			Stage 4: Stratified sample of classrooms
+			
+Section 1.3
+
+	Experimental Design
+	
+	Basic idea for planning a statistical Study
+		
+		1. State a hypothesis 
+				firstwe have to make some hypothesis before starting the study like hospital patient study, or some 		business related study 
+		2. Identify of indivisiual of interest
+				if we have a hypothesis of hospital then hospital is indivisiual or if patient then patient is indivisiual. so we have to clear about what hypothesis we have either hospital or patient.
+				
+		3. Specify the variables to measure :
+				Collect the variable as per your hypothesis. if you want the statistical analysis of hospital the collect all your imformation regarding the hypothesis.
+		4. Determine to use use entire population or sample
+				if choose sample then choose sampling methods
+				
+		5. Address Ethical concern before data collection
+				menas take care about your data.
+		
+		6. Collect the Data
+		
+		7. use descriptive or inferential statistics as per your hypothesis
+		
+		8. Note any concerns about data collection or analysis for future studies.
+	
+	
+		Hypotheses & Vriables Example
+		
+		Hypothesis:
+			Air pollution causes asthma in childern who live in urban city
+			
+		Indivisiual:
+			Childern in Urban city
+			
+		Varibales:
+			Air pollution and asthma
+			
+		Sampling, Ethics and data Collection:
+			Either collect data or use existing dataset 
+			can use gov dateset for population measures
+		
+	Census vs Sampling
+		Census can be done on entire population but sapmling only done with sample of data.
+		
+	Experimental vs Observational Study
+		in Experimental we experiment over the indivisiuals and give some treatment
+		in Observational we only study about the indivisiuals and no any treatment suggest.
+	
+	Lurking Varibale (Hidden variable) may be confounded (Surpise) the result
+
+Section 2.1
+
+	Frequency, Histrogram and Distribution
+	
+	Frequency Histrogram:
+		its a spceific type of bar chart made from data in a frequency table.
+		the poupose of the chart is to identify the Distribution of the data.
+		
+	Distribution
+		1. Normal Distribution (Mound shaped Systemarical)
+		2. Uniform Distribution
+		3. Skewed Left Distribution
+		4. Skewed Right Distribution
+		5. Bimodal Distribution
+		
+		1. Normal Distribution (Mound shaped Systemarical):
+			Normal Distribution informally called Bell Curve
+			Normal Distribution also called Symetric Distribution
+			Condition:
+				Mean=Median=Mode
+				
+		3. Skewed Left Distribution (Negative Skew)
+			(It has long left tail and also called negative Distribution)
+			condition: 
+				Mean < Median < Mode
+		
+		4. Skewed Right Distribution (Positive skew)
+			(It has long right tail also called Positive Distribution)
+			condition: 
+				Mean > Median > Mode
+				
+		5. Bimodal Distribution
+				it has two spike in histrogram graph 
+
+	Outliers:
+		Ouliers are the data value that are very different from other measurement from the dataset
+
+Section 2.2
+
+	Graphs
+	
+	1. Time Series Graphs: 
+		it is used for understanding the trend over time. continous data information on time basis 
+		like stock market 
+		
+	2. Bar Graphs:
+		we can show Qualitative and Quantitative both type of data 
+		it can v vertical or horizontal 
+	3. Pie Chart
+		it also called circle Graph. Used with counts of mutually exclusive freqencies
+		we can show Qualitative and Quantitative both type of data 
+		
+		common in healthcare
+		
+	
+		
+1. Mean
+2. Mode
+3. Median
+4. Normal Distribution
+4. Skewness
+5. Kurtosis
+6. Variance
+7. Standard Deviation
+8. Coveriance
+9. Correlation
+10. Regression
+11. Anova (Analysis of variance)
+12. R Square
+13. Adjust Square
+14. F Test
+15. Information value (IV)
+16. WOE (Weight of Evidence)
+17. VIF (variable inflation Factor)
+
+TERMANOLOGIES
+	MSR: Mean square root (Mean regression sum of square)
+	MSE: Mean Square error
+	N: Number of observation
+	k: numbers of independent variable
+	
+	F-Test (of F Statistics)
+		MSR/MSE
+
+Types of Regression:
+	1. Linear Regression (Most use in BI)
+	2. Logistics Regression (Most use in BI)
+	3. Polynomial Regression,
+	4. Step Wise Regression
+	5. Ridge Regression
+	7. Lasso Regression
+	8. Elastic Net Regression
+	
+
+1. MEAN (AVERAGE):
+	Sum of Total No devide by total no (count)
+	like 
+	6,5,5,3,1,5,6,7
+	MEAN= 6+5+5+3+1+5+6+7/8 = 5.75
+	
+2. Mode: Most frequent value in the Data Set
+	let suppose most people in group is age 30 then Mode will be 30
+	
+3. Median: Middle most value in the Dataset 
+		   Median vlaue is seprating the highest half of the data set from th lower half 
+	ex:
+	1,2,3,4,5,6,7,8,9
+	Median= 5 
+	
+4. Skewness and Kurtosis
+	before Swewness we need to know about Normal Distrubution
+	Normal Distribution: 
+		Normal Distribution informally called Bell Curve
+		Normal Distribution also called Symetric Distribution
+		Where, Mean=Median=Mode
+			
+	Skewness and kurtosis have 4 type:
+		1. Negative Skew or Left-Skewed Distribution (It has long left tail and also called negative Distribution)
+			condition: Mean < Median < Mode
+		
+		2. Positive Skew or Right-Skewed Distribution (It has long right tail also called Positive Distribution)
+			condition: Mean > Median > Mode
+			
+		3. Koutosis: it is a measure of wheather the data are heavy tailed or right tailed relative to normal distribution.
+		
+5. Variance: 
+	Variance is a measurement of the spread between numbers in dataset. the variance measures how far numbers is in the dataset from mean.
+	
+6. Standard Deviation: 
+	Standard Deviation is a measure of the dispersion of a set of data from its Mean. 
+	it is calculated as square root of variance by determining the variance between each data point relative to the Mean.
+	
+7. WOE (Weight of Evidence)
+	Log(Distribution of Good / Distribution of Bad)
+
+8. Information value (IV):
+	SUM of (Distribution of Good - Distribution of Bad)* WOE
+	
+	note: Both IV and WOE mostly used in Logistics Regression
+	
+	
+Statistical Model:
+
+Types of Response									Type of Predictors
+
+								Categorical						Continuous							Continuous&Categorical
+Continuous				Anova (Analysis of variance)	OLS(Odinary Least Square regression)	ANCOVA (Analysis of co-variance)
+Categorical				Logistics Regression			Logistics regression					Logistics Regression
+	
+
+
+
+
+

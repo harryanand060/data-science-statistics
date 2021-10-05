@@ -1,0 +1,9 @@
+Tables,Schedule,Start Time,End Time,Execution Time,Execution Status,Remarks
+inview_clients,,,,,,
+inview_clients,,,,,,
+inview_managers,,,,,,
+inview_managers,8:15:00,8:15:00,8:30:00,,Success,
+inview_holdings,8:00:00,8:00:00,8:10:00,,Success,
+inview_holdings,8:00:00,8:00:00,8:10:00,,Success,
+inview_clients_delegated_link,,,,,,
+inview_clients_delegated_link,,,,,,
